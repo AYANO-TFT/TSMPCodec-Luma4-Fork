@@ -3,17 +3,12 @@
   "displayName": "TSMP Codec Luma4",
   "version": "0.0.3-beta.1",
   "unity": "2022.3",
-  "description": "Luma4 TSMP codec, Udon handler, shaders, materials, and prefab.",
+  "description": "Luma4 TSMP codec, shaders, materials, and prefab for standalone Unity projects.",
   "author": {
     "name": "KIBA_Labs"
   },
   "license": "MIT",
   "dependencies": {
-    "com.kibalab.tsmp.core": ">=0.0.1",
-    "com.vrchat.worlds": ">=3.9.0"
-  },
-  "vpmDependencies": {
-    "com.kibalab.tsmp.core": ">=0.0.1",
-    "com.vrchat.worlds": ">=3.9.0"
+    "com.kibalab.tsmp.core": ">=0.0.1"
   }
 }

@@ -1,17 +1,14 @@
 # TSMP Codec Luma4
 
-TSMP の標準 codec パッケージです。Luma4 は初回セットアップやストリーム経路の診断に使う基準 codec として推奨されます。
+Luma4 codec package for TSMP, the Trans Sync Media Protocol.
 
-## 要件
+## Requirements
 
-- TSMP Core: https://github.com/kibalab/TSMP-Core
-- `com.kibalab.tsmp.core` 0.0.1 以降
-- VRChat Worlds SDK 3.9.0 以降
+- Unity 2022.3
+- TSMP Core
 
-## 使い方
+This Unity-only fork removes package-level dependencies on VRChat Worlds SDK and UdonSharp.
 
-TSMP Core と一緒にこのパッケージをインストールし、Core の `Samples/TSMPController.prefab` をシーンに配置します。その後、`TSMPSetup` の Codec タブで `Luma4` を選択し、`Apply Setup` を実行します。
+## Usage
 
-## リリース状態
-
-このパッケージは beta 段階で、`v0.0.x-beta.x` 形式のタグを使用します。
+Install this package with TSMP Core, add `Runtime/Codec_Luma4.prefab` to the scene, then use `TSMPSetup` to refresh codecs and apply the setup.

@@ -2,13 +2,7 @@
   "name": "K13A.TSMP.Codec.Luma4",
   "rootNamespace": "K13A.TSMP",
   "references": [
-    "K13A.TSMP.Core",
-    "UdonSharp.Runtime",
-    "UdonSharp.Lib",
-    "VRC.SDKBase",
-    "VRC.SDK3",
-    "VRC.Udon",
-    "VRC.Udon.Serialization.OdinSerializer"
+    "K13A.TSMP.Core"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],
