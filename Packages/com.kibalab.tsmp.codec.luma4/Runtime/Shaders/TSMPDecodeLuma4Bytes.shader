@@ -33,7 +33,7 @@ Shader "Hidden/TSMP/Decode Luma4 Bytes"
             #pragma target 3.5
             #pragma vertex vert
             #pragma fragment frag
-            #include "../../../com.kibalab.tsmp.core/Runtime/Codecs/Common/Shaders/cgincs/TSMPDecodeCommon.cginc"
+            #include "Packages/com.kibalab.tsmp.core/Runtime/Codecs/Common/Shaders/cgincs/TSMPDecodeCommon.cginc"
 
             float CalibrationLuma(int symbol)
             {
@@ -82,7 +82,7 @@ Shader "Hidden/TSMP/Decode Luma4 Bytes"
                 return (high << 4) | low;
             }
 
-            #include "../../../com.kibalab.tsmp.core/Runtime/Codecs/Common/Shaders/cgincs/TSMPDecodeByteOutput.cginc"
+            #include "Packages/com.kibalab.tsmp.core/Runtime/Codecs/Common/Shaders/cgincs/TSMPDecodeByteOutput.cginc"
             ENDCG
         }
     }
