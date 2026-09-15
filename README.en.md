@@ -16,8 +16,9 @@ Use Luma4 first when installing TSMP or diagnosing a stream path.
 ## Requirements
 
 - TSMP Core: https://github.com/kibalab/TSMP-Core
-- `com.kibalab.tsmp.core` 0.0.1 or newer
-- VRChat Worlds SDK 3.9.0 or newer
+- Unity 2022.3
+- `com.kibalab.tsmp.core` 0.2.0 or newer (UPM dependency: 0.2.0)
+- VRChat Worlds SDK 3.9.0 or newer only when used in VRChat worlds
 
 ## Installation
 
@@ -29,16 +30,18 @@ https://vpm.kiba.red/
 
 Then install `TSMP Core` and `TSMP Codec Luma4`.
 
+For ordinary Unity, install Core 0.2.0 and this package through UPM's **Add package from disk**. VRCSDK/UdonSharp is not required. Both environments use the same Controller prefab and automatic setup preparation.
+
 ## Usage
 
 1. Add `Packages/com.kibalab.tsmp.core/Samples/TSMPController.prefab` from the Core package to your scene.
 2. Open the Codec tab in `TSMPSetup` and click `Refresh Codecs`.
 3. Select `Luma4`.
-4. Click `Apply Setup`.
+4. Confirm the input/output settings. Setup prepares components and bindings automatically; `Apply Setup` can also refresh them manually.
 
 ## Release Status
 
-This package is currently beta and uses `v0.0.x-beta.x` tags.
+Luma4 0.0.3 is a non-prerelease version for TSMP Core 0.2.0. Public APIs may still evolve before 1.0.
 
 ## License
 
